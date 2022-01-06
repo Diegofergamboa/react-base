@@ -7,7 +7,9 @@
     "build": "webpack --mode production",
     "start": "webpack serve --open",
     "format": "prettier --write '{*.js,src/**/*.{js,jsx}}'",
-    "lint": "eslint src/ --fix"
+    "lint": "eslint src/ --fix" ,
+    "hola" : "node" ,
+    "deploy" : "npm run format && npm run build" 
   },
   "keywords": [
     "react",
